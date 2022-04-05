@@ -1,17 +1,17 @@
 # ProjectGKV based with C++
 Project Transformasi 3D pada objek Kubus dengan menggunakan C++ dan OpenGL pada IDE Dev Cpp
 <br> Jenis transformasi dasar yang digunakan ialah :
-## Translasi
+### Translasi
 ```cpp
 glTranslatef(1.0f,2.0f,3.0f); 
 // translasi dengan nilai/parameter x=1, y=2, dan z=3
 ```
-## Skala
+### Skala
 ```cpp
 glScalef(2.0f,2.0f,2.0f); 
 // overall scaling dengan faktor skala 2
 ```
-## Rotasi
+### Rotasi
 ```cpp
 glRotatef(180,0.0f,0.0f,1.0f); 
 // rotasi 180 derajat pada sumbu z
